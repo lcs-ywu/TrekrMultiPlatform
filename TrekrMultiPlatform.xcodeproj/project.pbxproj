@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		8A212BF925BF5A74008DE2F9 /* TrekrMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212BE625BF5A70008DE2F9 /* TrekrMultiPlatformApp.swift */; };
 		8A212BFA25BF5A74008DE2F9 /* TrekrMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212BE625BF5A70008DE2F9 /* TrekrMultiPlatformApp.swift */; };
-		8A212BFB25BF5A74008DE2F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212BE725BF5A70008DE2F9 /* ContentView.swift */; };
-		8A212BFC25BF5A74008DE2F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212BE725BF5A70008DE2F9 /* ContentView.swift */; };
 		8A212BFD25BF5A74008DE2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A212BE825BF5A74008DE2F9 /* Assets.xcassets */; };
 		8A212BFE25BF5A74008DE2F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A212BE825BF5A74008DE2F9 /* Assets.xcassets */; };
 		8A212C0F25BF5D9E008DE2F9 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A212C0D25BF5D9E008DE2F9 /* tips.json */; };
@@ -19,11 +17,12 @@
 		8A212C1225BF5D9E008DE2F9 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A212C0E25BF5D9E008DE2F9 /* locations.json */; };
 		8A212C1625BF5ECF008DE2F9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212C1525BF5ECF008DE2F9 /* Location.swift */; };
 		8A212C1725BF5ECF008DE2F9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212C1525BF5ECF008DE2F9 /* Location.swift */; };
+		8A212C1B25BF6101008DE2F9 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212C1A25BF6101008DE2F9 /* LocationDetail.swift */; };
+		8A212C1C25BF6101008DE2F9 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212C1A25BF6101008DE2F9 /* LocationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A212BE625BF5A70008DE2F9 /* TrekrMultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekrMultiPlatformApp.swift; sourceTree = "<group>"; };
-		8A212BE725BF5A70008DE2F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A212BE825BF5A74008DE2F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A212BED25BF5A74008DE2F9 /* TrekrMultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekrMultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A212BF025BF5A74008DE2F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		8A212C0D25BF5D9E008DE2F9 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		8A212C0E25BF5D9E008DE2F9 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		8A212C1525BF5ECF008DE2F9 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8A212C1A25BF6101008DE2F9 /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		8A212C0925BF5A8C008DE2F9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8A212BE725BF5A70008DE2F9 /* ContentView.swift */,
+				8A212C1A25BF6101008DE2F9 /* LocationDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A212BFB25BF5A74008DE2F9 /* ContentView.swift in Sources */,
 				8A212C1625BF5ECF008DE2F9 /* Location.swift in Sources */,
 				8A212BF925BF5A74008DE2F9 /* TrekrMultiPlatformApp.swift in Sources */,
+				8A212C1B25BF6101008DE2F9 /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,9 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A212BFC25BF5A74008DE2F9 /* ContentView.swift in Sources */,
 				8A212C1725BF5ECF008DE2F9 /* Location.swift in Sources */,
 				8A212BFA25BF5A74008DE2F9 /* TrekrMultiPlatformApp.swift in Sources */,
+				8A212C1C25BF6101008DE2F9 /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
