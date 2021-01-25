@@ -19,6 +19,8 @@
 		8A212C1725BF5ECF008DE2F9 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212C1525BF5ECF008DE2F9 /* Location.swift */; };
 		8A212C1B25BF6101008DE2F9 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212C1A25BF6101008DE2F9 /* LocationDetail.swift */; };
 		8A212C1C25BF6101008DE2F9 /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A212C1A25BF6101008DE2F9 /* LocationDetail.swift */; };
+		8A42FECC25BF79A300829CBC /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FECB25BF79A300829CBC /* LocationStore.swift */; };
+		8A42FECD25BF79A300829CBC /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FECB25BF79A300829CBC /* LocationStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,7 @@
 		8A212C0E25BF5D9E008DE2F9 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		8A212C1525BF5ECF008DE2F9 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		8A212C1A25BF6101008DE2F9 /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
+		8A42FECB25BF79A300829CBC /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 				8A212C0E25BF5D9E008DE2F9 /* locations.json */,
 				8A212C0D25BF5D9E008DE2F9 /* tips.json */,
 				8A212C1525BF5ECF008DE2F9 /* Location.swift */,
+				8A42FECB25BF79A300829CBC /* LocationStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -219,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A42FECC25BF79A300829CBC /* LocationStore.swift in Sources */,
 				8A212C1625BF5ECF008DE2F9 /* Location.swift in Sources */,
 				8A212BF925BF5A74008DE2F9 /* TrekrMultiPlatformApp.swift in Sources */,
 				8A212C1B25BF6101008DE2F9 /* LocationDetail.swift in Sources */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A42FECD25BF79A300829CBC /* LocationStore.swift in Sources */,
 				8A212C1725BF5ECF008DE2F9 /* Location.swift in Sources */,
 				8A212BFA25BF5A74008DE2F9 /* TrekrMultiPlatformApp.swift in Sources */,
 				8A212C1C25BF6101008DE2F9 /* LocationDetail.swift in Sources */,
