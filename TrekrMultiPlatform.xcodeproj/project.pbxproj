@@ -27,6 +27,8 @@
 		8A42FED725BF979E00829CBC /* WorldMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FED525BF979E00829CBC /* WorldMap.swift */; };
 		8A42FEDB25BF97B700829CBC /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEDA25BF97B700829CBC /* TipsList.swift */; };
 		8A42FEDC25BF97B700829CBC /* TipsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEDA25BF97B700829CBC /* TipsList.swift */; };
+		8A42FEE025BFCCA400829CBC /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEDF25BFCCA400829CBC /* Tip.swift */; };
+		8A42FEE125BFCCA400829CBC /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42FEDF25BFCCA400829CBC /* Tip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,7 @@
 		8A42FED025BF8FFA00829CBC /* LocationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsList.swift; sourceTree = "<group>"; };
 		8A42FED525BF979E00829CBC /* WorldMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldMap.swift; sourceTree = "<group>"; };
 		8A42FEDA25BF97B700829CBC /* TipsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsList.swift; sourceTree = "<group>"; };
+		8A42FEDF25BFCCA400829CBC /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,7 @@
 				8A212C0D25BF5D9E008DE2F9 /* tips.json */,
 				8A212C1525BF5ECF008DE2F9 /* Location.swift */,
 				8A42FECB25BF79A300829CBC /* LocationStore.swift */,
+				8A42FEDF25BFCCA400829CBC /* Tip.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A42FECC25BF79A300829CBC /* LocationStore.swift in Sources */,
+				8A42FEE025BFCCA400829CBC /* Tip.swift in Sources */,
 				8A42FED625BF979E00829CBC /* WorldMap.swift in Sources */,
 				8A212C1625BF5ECF008DE2F9 /* Location.swift in Sources */,
 				8A42FEDB25BF97B700829CBC /* TipsList.swift in Sources */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A42FECD25BF79A300829CBC /* LocationStore.swift in Sources */,
+				8A42FEE125BFCCA400829CBC /* Tip.swift in Sources */,
 				8A42FED725BF979E00829CBC /* WorldMap.swift in Sources */,
 				8A212C1725BF5ECF008DE2F9 /* Location.swift in Sources */,
 				8A42FEDC25BF97B700829CBC /* TipsList.swift in Sources */,
