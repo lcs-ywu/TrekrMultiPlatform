@@ -47,3 +47,4 @@ struct LocationsList_Previews: PreviewProvider {
      
     }
 }
+
