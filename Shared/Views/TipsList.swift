@@ -31,7 +31,7 @@ struct TipsList: View {
         
         //Get a pointer to the file
         let url = Bundle.main.url(forResource: "tips", withExtension: "json")!
-        //:oad the contents to the file
+        //Load the contents to the file
         let data = try! Data(contentsOf: url)
         //Convert the data from the JSON file into the array
         tips = try! JSONDecoder().decode([Tip].self, from: data)
